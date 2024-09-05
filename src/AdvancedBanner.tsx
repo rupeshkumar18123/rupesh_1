@@ -13,9 +13,10 @@ export const AdvancedBannerTop = () => {
 
   const headline: BannerLayer = {
     translateY: [0, 30],
-    scale: [1, 1.05, "easeOutCubic"],
+    scale: [1,1.5, "easeOutCubic"],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
+    
     children: (
       <div className="inset center">
         <h1 className="headline white">Hello World!</h1>
